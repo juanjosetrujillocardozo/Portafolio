@@ -1,0 +1,330 @@
+/* Estilos del menú y cabecera */
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.cabecera__logo {
+    width: 50px;
+}
+
+.cabecera__titulo {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navegacion {
+    display: flex;
+    gap: 30px;
+}
+
+.navegacion__elemento a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Estilos para la sección de presentación */
+.presentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.presentacion__foto {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.presentacion__contenedor {
+    max-width: 600px;
+}
+
+.presentacion__titulo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.presentacion__subtitulo {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.redes {
+    display: flex;
+    gap: 20px;
+}
+
+.redes__img img {
+    margin-left: 5px;
+}
+
+/* Estilos para la sección Sobre mí */
+.sobre-mi {
+    background-color: #e6f0fa; /* Color de fondo claro */
+    padding: 4rem 2rem; /* Espaciado superior e inferior */
+    text-align: center;
+}
+
+.sobre-mi__titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.sobre-mi__texto {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.sobre-mi__firma {
+    margin-top: 2rem;
+    width: 150px;
+    height: auto;
+}
+
+/* Sección de Habilidades y Hobbies */
+.habilidades {
+    text-align: center;
+    padding: 2rem;
+}
+
+.habilidades__titulo {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.habilidades__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.habilidades__elemento {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+}
+
+.habilidades__icono {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.habilidades__nombre {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* ------------------------------ Sección de Formación académica ------------------------------*/
+.formacion {
+    background-color: #E9F3FA; /* color de fondo similar al de la imagen */
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.formacion__titulo {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.formacion__lista {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.formacion__elemento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.formacion__icono {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.formacion__nombre {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.formacion__detalle {
+    font-size: 1rem;
+    color: #666;
+}
+
+.proyectos {
+    padding: 3rem;
+    background-color: #f5f5f5;
+}
+
+.proyectos__titulo {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.proyectos__contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.proyecto {
+    background-color: #eaeaea;
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.proyecto__nombre {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.proyecto__cuerpo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.proyecto__app {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.proyecto__resultado {
+    flex: 1;
+}
+
+.proyecto__desc {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn-encriptar, .btn-desencriptar, .btn-copiar {
+    background-color: #0000ff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.proyecto__repo, .proyecto__demo {
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #0000ff;
+    border-bottom: 1px solid;
+}
+
+.proyecto__repo:hover, .proyecto__demo:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para los botones de la experiencia profesional */
+.proyectos__botones {
+    display: flex;
+    gap: 1rem;
+}
+
+.proyectos__repositorio, .proyectos__ver-demo {
+    padding: 0.5rem 1rem;
+    border: 1px solid #007bff;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.proyectos__ver-demo {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.proyectos__repositorio:hover, .proyectos__ver-demo:hover {
+    opacity: 0.8;
+}
+
+.contacto {
+    background-color: #e6f0f8;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contacto__contenedor {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .contacto__imagen {
+    width: 40%;
+    max-width: 300px;
+  }
+  
+  .contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .contacto__titulo {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contacto__campo {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .contacto__campo--textarea {
+    height: 100px;
+  }
+  
+  .contacto__boton {
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e6f0f8;
+    font-size: 14px;
+  }
+  
